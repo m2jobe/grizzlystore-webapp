@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+    font: 100%/normal "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    margin: 1em 0;
+    font-size: 2.75em;
+    font-weight: normal;
+}
+
+h2 {
+    margin: 2em 0 1em;
+    font-size: 1.5em;
+}
+
+h3 {
+    margin: 2em 0 0;
+    padding: 0 0 0.25em;
+    font-size: 1.2em;
+}
+
+a {
+    color: #084482;
+    text-decoration: underline;
+}
+
+p {
+    margin: 1em 0;
+}
+
+ul {
+    margin: 1em 0;
+    padding: 0 0 0 3em;
+    list-style-type: disc;
+}
+
+ol {
+    margin: 1em 0 1em 2em;
+    padding: 0;
+}
+
+ol li {
+    margin: 0 0 0.5em;
+}
+
+
+footer {
+    padding: 1em 0;
+}
+
+a img {
+    border: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+#header, #example, #readme, #footer {
+    padding: 40px;
+}
+
+#header, #example {
+    background: #32689A;
+    color: #fff;
+}
+
+#header a, #example a {
+    color: #fff;
+}
+
+#header ol {
+    margin: 3em 0 1em 4em;
+}
+
+#header img {
+    display: none;
+}
+
+#example {
+    margin-top: -60px;
+}
+
+#example ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.9em;
+}
+
+#example form {
+    float: left;
+    padding: 10px 10px 10px 15px;
+}
+
+#example form strong {
+    font-size: 1.167em;
+    font-weight: bold;
+}
+
+#example form.last {
+    margin: 0;
+    border: 0;
+}
+
+#example fieldset {
+    position: relative;
+    min-width: 9em;
+    height: 9em;
+    margin: 0;
+    padding: 10px;
+    background: #5a85ad;
+    border: 0;
+    border-radius: 8px;
+}
+
+#example fieldset .button {
+    position: absolute;
+    bottom: 10px;
+}
+
+#example .container {
+    overflow: auto;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#footer {
+    margin-top: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.loading * {
+    display: none !important;
+}
+
+
+
+@media only screen and (max-width : 568px) {
+
+    #header, #example, #readme, #footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #example .container {
+        height: 10.5em;
+        overflow: hidden;
+    }
+
+}
