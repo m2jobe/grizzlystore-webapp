@@ -53,7 +53,7 @@
 <script>
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyACoxOsZflsJidd_84LMJZeO3qR-Ls6Gjk",
+    apiKey: "APPID",
     authDomain: "websysboys.firebaseapp.com",
     databaseURL: "https://websysboys.firebaseio.com",
     storageBucket: "websysboys.appspot.com",
